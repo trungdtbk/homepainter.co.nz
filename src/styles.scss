@@ -2,3 +2,12 @@
 
 @import "theme.scss", url('https://fonts.googleapis.com/css2?family=Anton&display=swap'),
 url('https://fonts.googleapis.com/css2?family=Anton&family=Lato:wght@700&display=swap');
+
+.title {
+  background:
+    linear-gradient(135deg, #021120 21px, #021a31 22px, #021a31 24px, transparent 24px, transparent 67px, #021a31 67px, #021a31 69px, transparent 69px),
+    linear-gradient(225deg, #021120 21px, #021a31 22px, #021a31 24px, transparent 24px, transparent 67px, #021a31 67px, #021a31 69px, transparent 69px)0 64px;
+  background-color:#021120;
+  background-size: 64px 128px;
+  font-family: 'Lato', sans-serif;
+}
